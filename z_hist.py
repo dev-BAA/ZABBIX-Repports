@@ -93,7 +93,7 @@ if point != datyear:
         sheet.cell(row=1, column=y).font = font
         sheet.cell(row=1, column=y).fill = fill
         y = y + 1.
-    while cel < 602:
+    while cel < 1002:
         y = 1
         sheet.cell(row=cel, column=3).value = 'U-0' + '{:03}'.format(cel - 1)
         while y < 21:
